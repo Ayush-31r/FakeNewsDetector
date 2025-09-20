@@ -24,20 +24,19 @@ The goal is to provide a clear, reproducible baseline implementation suitable fo
 
 ## Files & structure
 
-/ (root)
-├─ data/ # place datasets here (not included)
-│ ├─ train.csv
-│ └─ test.csv
-├─ notebooks/ # EDA and experiments (Jupyter notebooks)
-│ └─ eda.ipynb
-├─ src/
-│ ├─ preprocess.py # text cleaning & tokenization helpers
-│ ├─ features.py # TF-IDF pipeline
-│ ├─ train.py # training entrypoint
-│ └─ evaluate.py # evaluation helpers
-├─ models/ # saved models and artifacts
-├─ results/ # metrics, plots
-└─ README.md # this file
+- **data/**  
+  - train.csv  
+  - test.csv  
+- **notebooks/**  
+  - eda.ipynb  
+- **src/**  
+  - preprocess.py – text cleaning & tokenization helpers  
+  - features.py – TF-IDF pipeline  
+  - train.py – training entrypoint  
+  - evaluate.py – evaluation helpers  
+- **models/** – saved models and artifacts  
+- **results/** – metrics, plots  
+- **README.md** – this file
 
 
 
